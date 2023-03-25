@@ -12,7 +12,6 @@ export default function Discover() {
     "place6",
     "place7",
     "place8",
-    "place9",
   ];
 
   const wrappedPhotos = photos.map((photo) => {
