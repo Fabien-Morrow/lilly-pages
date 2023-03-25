@@ -1,10 +1,9 @@
 import Image from "next/image";
-import greenLogo from "@/public/green-logo.png";
 import background from "@/public/background.png";
 
 export default function Welcome() {
   return (
-    <div className="relative flex flex-col items-center justify-between bg-[url('../public/background.png')] bg-contain bg-center bg-no-repeat text-white">
+    <div className="relative flex flex-col items-center justify-between bg-[url('/background.png')] bg-contain bg-center bg-no-repeat text-white">
       <Image className="invisible" src={background} alt="background" />
       <div className="absolute top-12 flex flex-col items-center">
         <div className="min-w-max font-dancing text-4xl font-bold sm:text-6xl xl:text-8xl">
