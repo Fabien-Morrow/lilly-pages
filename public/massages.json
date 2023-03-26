@@ -1,0 +1,111 @@
+
+{
+    "la_grande_evasion": {
+        "id": "la_grande_evasion",
+        "name": "LA GRANDE EVASION",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ],
+        "image" : "grande-evasion.png",
+        "hover" : "grande-evasion.png",
+        "price" : "80",
+        "duration" : "1h"
+    },
+    "chi_nai_tsang": {
+        "id": "chi_nai_tsang",
+        "name": "CHI NAI TSANG",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ],
+        "image" : "chinaitsang.png",
+        "hover" : "chinaitsang.png",
+        "price" : "80",
+        "duration" : "1h"
+    },
+    "kobido": {
+        "id": "kobido",
+        "name": "MASSAGE KOBIDO",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ],
+        "image" : "kobido.png",
+        "hover" : "kobido.png",
+        "price" : "80",
+        "duration" : "1h"
+    },
+    "californien": {
+        "id": "californien",
+        "name": "MASSAGE CALIFORNIEN",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ],
+        "image" : "californien.png",
+        "hover" : "californien.png",
+        "price" : "80",
+        "duration" : "1h"
+    },
+    "balinais": {
+        "id": "balinais",
+        "name": "MASSAGE BALINAIS",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ],
+        "image" : "balinais.png",
+        "hover" : "balinais.png",
+        "price" : "80",
+        "duration" : "1h"
+    },
+    "prenatal": {
+        "id": "prenatal",
+        "name": "MASSAGE PRENATAL",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ],
+        "image" : "prenatal.png",
+        "hover" : "prenatal.png",
+        "price" : "80",
+        "duration" : "1h"
+    },
+    "mains_pieds": {
+        "id": "mains_pieds",
+        "name": "MASSAGE MAINS & PIEDS",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ],
+        "image" : "prenatal.png",
+        "hover" : "prenatal.png",
+        "price" : "80",
+        "duration" : "1h"
+    },
+    "amma_assis": {
+        "id": "amma_assis",
+        "name": "MASSAGE AMMA ASSIS",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ],
+        "image" : "prenatal.png",
+        "hover" : "prenatal.png",
+        "price" : "80",
+        "duration" : "1h"
+    },
+    "enfants": {
+        "id": "enfants",
+        "name": "MASSAGE ENFANTS",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ],
+        "image" : "enfants.png",
+        "hover" : "enfants.png",
+        "price" : "80",
+        "duration" : "1h"
+    }
+}

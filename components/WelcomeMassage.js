@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Welcome() {
   return (
     <div className="mt-28 pt-6">
-      <div className="mx-auto flex max-w-min flex-col items-center font-poppins">
+      <div className="mx-auto flex max-w-min flex-col items-center">
         <div className="min-w-max text-3xl font-bold">
           La carte des massages bien être
         </div>

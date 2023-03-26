@@ -13,7 +13,7 @@ export default function Presentation() {
         />
       </div>
       <div className="text-center lg:text-left">
-        <h1 className="font-poppins font-bold lg:text-2xl">Qui suis-je ?</h1>
+        <h1 className="font-bold lg:text-2xl">Qui suis-je ?</h1>
         <p className="pt-14 text-sm lg:text-lg">
           Infirmière diplomée d&apos;état, praticienne en relation d&apos;aide
           par le massage, certifiée en KOBIDO selon l&apos;enseignement de

@@ -13,7 +13,7 @@ import shiatsuHover from "@/public/massages/shiatsu-hover.png";
 export default function TeasingMassages() {
   return (
     <div>
-      <div className="color-custom-blue mt-48 text-center font-poppins text-2xl font-bold">
+      <div className="color-custom-blue mt-48 text-center text-2xl font-bold">
         Les Massages
       </div>
 

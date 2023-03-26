@@ -14,11 +14,8 @@ export default function App(props) {
         />
       </Head>
       <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
         theme={{
           /** Put your mantine theme override here */
-          colorScheme: "light",
           breakpoints: {
             sm: "40em",
             md: "48em",

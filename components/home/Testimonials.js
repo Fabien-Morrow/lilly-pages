@@ -4,7 +4,7 @@ import Dot from "../utils/Dot";
 export default function Testimonials() {
   return (
     <div>
-      <div className="color-custom-blue mt-48 text-center font-poppins text-2xl font-bold">
+      <div className="color-custom-blue mt-48 text-center text-2xl font-bold">
         Ce qu&apos;ils en ont pensé
       </div>
       <div className="mt-14 flex justify-between gap-3">
@@ -31,7 +31,7 @@ export default function Testimonials() {
 function ShowTestimonial() {
   return (
     <div className="flex flex-col items-center">
-      <div className="max-w-[60%] text-center font-poppins text-lg italic">
+      <div className="max-w-[60%] text-center text-lg italic">
         &quot;J&apos;ai enfin l&apos;impression d&apos;avoir les jambes légères!
         vraiment super, une magicienne!&quot; - Céline
       </div>

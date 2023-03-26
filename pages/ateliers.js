@@ -3,7 +3,7 @@ import Dot from "../components/utils/Dot";
 
 export default function Home() {
   return (
-    <main className="font-poppins">
+    <main className="font-poppin">
       <div className="mx-44 mt-48">
         <div className=" text-center text-2xl">Les Ateliers</div>
         <Misa />

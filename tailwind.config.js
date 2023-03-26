@@ -18,6 +18,10 @@ module.exports = {
         "custom-blue": "#111A40",
         "custom-green": "#689A77",
       },
+      gridTemplateRows: {
+        massages:
+          "minmax(0, 1fr) minmax(0, 1fr) 40px minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr)",
+      },
     },
   },
   plugins: [],

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function ContactMe() {
   return (
     <div className="mx-20 lg:mx-0">
-      <div className="color-custom-blue mt-48 text-center font-poppins text-2xl font-bold">
+      <div className="color-custom-blue mt-48 text-center text-2xl font-bold">
         Me contacter
       </div>
       <div className="mt-36 flex flex-col lg:grid lg:grid-cols-2 lg:gap-3">

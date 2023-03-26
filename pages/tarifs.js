@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center">
-      <div className="relative font-poppins">
+    <div className="mx-5 font-poppins lg:flex lg:flex-col lg:items-center xl:mx-0">
+      <div className="relative">
         <div className=" text-center text-2xl">Tarifs des massages</div>
-        <div className="relative z-10 mt-12 grid grid-cols-2 gap-9">
+        <div className="relative z-10 mt-12 gap-9 lg:grid lg:grid-cols-2">
           <Tarifs />
-          <div>
+          <div className="hidden lg:block">
             <Image src="/tarifs.png" width={526} height={684} alt="tarifs" />
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function Home() {
 
 function Tarifs() {
   return (
-    <div className="relative flex h-[684px] w-[526px] flex-col border border-custom-blue px-10 py-12">
+    <div className="relative flex flex-col border border-custom-blue px-10 py-12 lg:h-0 lg:min-h-full">
       <div className="mb-4 text-xl font-bold">Massages Classiques</div>
       <MassagePrice name="Massage Californien" time="1 heure" price="50" />
       <MassagePrice name="Massage Balinais" time="1 heure" price="50" />
@@ -47,7 +47,7 @@ function Tarifs() {
 
 function MassagePrice({ name, time, price }) {
   return (
-    <div className="flex justify-between py-2">
+    <div className="flex justify-between leading-10 lg:leading-8 xl:leading-10">
       <div>{name}</div>
       <div>
         {time} / {price} €

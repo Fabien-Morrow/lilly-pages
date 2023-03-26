@@ -35,7 +35,7 @@ export default function Discover() {
 
   return (
     <div className="relative flex flex-col items-center">
-      <div className="color-custom-blue mt-48 text-center font-poppins text-2xl font-bold">
+      <div className="color-custom-blue mt-48 text-center text-2xl font-bold">
         Découvrir le lieu
       </div>
       <div className="relative">
