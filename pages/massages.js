@@ -19,7 +19,7 @@ export default function Home() {
         <div className=" mt-28 text-center text-2xl">
           Les Massages Classiques
         </div>
-        <div className="mt-12 grid grid-cols-2 gap-9">
+        <div className="mt-12 grid grid-cols-2 grid-rows-3	 gap-9">
           <Cell5 />
           <Cell6 />
           <Cell7 />
@@ -39,7 +39,7 @@ export default function Home() {
 
 function Cell1() {
   return (
-    <div className="relative flex h-[473px] w-[524px] flex-col border border-custom-blue px-10 py-12">
+    <div className="relative flex h-0 min-h-full flex-col border border-custom-blue px-10 py-12">
       <div className="text-lg font-medium">LA GRANDE EVASION</div>
       <div className="mt-9 flex-grow">
         <p>
@@ -102,7 +102,7 @@ function Cell3() {
 
 function Cell4() {
   return (
-    <div className="flex h-[473px] w-[524px] flex-col border border-custom-blue px-10 py-12">
+    <div className="flex h-0 min-h-full flex-col border border-custom-blue px-10 py-12">
       <div className="text-lg font-medium">CHI NAI TSANG</div>
       <div className="mt-9 flex-grow">
         <p>
@@ -156,7 +156,7 @@ function LargeCell() {
 
 function Cell5() {
   return (
-    <div className="flex h-[473px] w-[524px] flex-col border border-custom-blue px-10 py-12">
+    <div className="flex h-0 min-h-full flex-col border border-custom-blue px-10 py-12">
       <div className="text-lg font-medium">MASSAGE CALIFORNIEN</div>
       <div className="mt-9 flex-grow">
         <p>
@@ -179,7 +179,7 @@ function Cell5() {
 
 function Cell6() {
   return (
-    <div className="flex h-[473px] w-[524px] flex-col border border-custom-blue px-10 py-12">
+    <div className="flex h-0 min-h-full flex-col border border-custom-blue px-10 py-12">
       <div className="text-lg font-medium">MASSAGE BALINAIS</div>
       <div className="mt-9 flex-grow">
         <p>
@@ -210,7 +210,7 @@ function Cell7() {
 
 function Cell8() {
   return (
-    <div className="flex h-[473px] w-[524px] flex-col border border-custom-blue px-10 py-12">
+    <div className="flex h-0 min-h-full flex-col border border-custom-blue px-10 py-12">
       <div className="text-lg font-medium">MASSAGE PRENATAL</div>
       <div className="mt-9 flex-grow">
         <p>
@@ -233,7 +233,7 @@ function Cell8() {
 
 function Cell9() {
   return (
-    <div className="flex h-[473px] w-[524px] flex-col border border-custom-blue px-10 py-12">
+    <div className="flex h-0 min-h-full flex-col border border-custom-blue px-10 py-12">
       <div className="text-lg font-medium">MASSAGE MAINS & PIEDS</div>
       <div className="mt-9 flex-grow">
         <p>
@@ -256,7 +256,7 @@ function Cell9() {
 
 function Cell10() {
   return (
-    <div className="flex h-[473px] w-[524px] flex-col border border-custom-blue px-10 py-12">
+    <div className="flex h-0 min-h-full flex-col border border-custom-blue px-10 py-12">
       <div className="text-lg font-medium">MASSAGE AMMA ASSIS</div>
       <div className="mt-9 flex-grow">
         <p>
