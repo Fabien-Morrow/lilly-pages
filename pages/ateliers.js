@@ -1,50 +1,105 @@
 import Image from "next/image";
 import Dot from "../components/utils/Dot";
+import { Accordion } from "@mantine/core";
+import ateliers from "@/public/ateliers.json";
 
 export default function Home() {
   return (
     <main className="font-poppin">
-      <div className="mx-44 mt-48">
+      <div className="mx-5 mt-8 md:mx-20 md:mt-32 xl:mx-44">
         <div className=" text-center text-2xl">Les Ateliers</div>
         <Misa />
-        <div className="mt-28 grid grid-cols-3 gap-5">
-          <Parentalite />
-          <Enfants />
-          <Entreprise />
+        <AccordeonAteliers />
+        <div className="hidden xl:mt-28 xl:grid xl:grid-cols-3 xl:gap-5">
+          <Parentalite content={ateliers.parentalite} />
+          <Enfants content={ateliers.enfants} />
+          <Entreprise content={ateliers.entreprise} />
         </div>
       </div>
     </main>
   );
 }
 
+function AccordeonAteliers() {
+  return (
+    <div className="mt-5 xl:hidden">
+      <Accordion
+        variant="separated"
+        defaultValue="la_grande_evasion"
+        radius={0}
+        styles={{
+          item: {
+            borderColor: "#689A77",
+            "&[data-active]": {
+              borderColor: "#689A77",
+            },
+          },
+        }}
+      >
+        <AccordeonAtelier content={ateliers.parentalite} />
+        <AccordeonAtelier content={ateliers.enfants} />
+        <AccordeonAtelier content={ateliers.entreprise} />
+      </Accordion>
+    </div>
+  );
+}
+
+function AccordeonAtelier({ content }) {
+  const wrappedDescription = content.description.map((paragraph, index) => (
+    <p className="mb-4" key={index}>
+      {paragraph}
+    </p>
+  ));
+  return (
+    <Accordion.Item value={content.id}>
+      <Accordion.Control className="font-medium">
+        <div>{content.name}</div>
+      </Accordion.Control>
+      <Accordion.Panel>{wrappedDescription}</Accordion.Panel>
+    </Accordion.Item>
+  );
+}
+
 function Misa() {
   return (
-    <div className="mt-28 flex gap-10">
+    <div className="mt-12 flex gap-10">
       <div className="flex flex-col justify-center">
-        <div className="text-lg font-bold">titre ici</div>
-        <div>
-          <br />
-          <p>
-            En tant qu’institutrice MISA, je propose différents accompagnements
-            pour les professionels, les enfants et les parents.
-          </p>
-          <br />
-          <p>
-            Le massage se pratique dès le plus jeune âge dans de nombreux pays.
-          </p>
-          <br />
-          <p>
-            On connait aujourd’hui l’incidence bénéfique de ce soin, pour soi
-            même, mais aussi dans les relations interpersonnelles.​
-          </p>
+        <div className="flex items-center gap-4 xl:block">
+          <div>
+            <br />
+            <p>
+              En tant qu’institutrice MISA, je propose différents
+              accompagnements pour les professionels, les enfants et les
+              parents.
+            </p>
+            <br />
+            <p>
+              Le massage se pratique dès le plus jeune âge dans de nombreux
+              pays.
+            </p>
+            <br />
+            <p>
+              On connait aujourd’hui l’incidence bénéfique de ce soin, pour soi
+              même, mais aussi dans les relations interpersonnelles.​
+            </p>
+          </div>
+          <div className="md:block md:min-w-max xl:hidden">
+            <Image
+              className=""
+              src="/ateliers.png"
+              width={200}
+              height={205}
+              alt="ateliers"
+            />
+          </div>
         </div>
       </div>
-      <div>
+      <div className="hidden xl:block">
         <Image
           className=""
           src="/ateliers.png"
-          width={396}
-          height={319}
+          width={200}
+          height={205}
           alt="ateliers"
         />
       </div>
@@ -52,7 +107,7 @@ function Misa() {
   );
 }
 
-function Parentalite() {
+function Parentalite({ content }) {
   return (
     <div className="border border-custom-green p-8">
       <div className="mb-9 text-lg font-medium">
@@ -68,7 +123,7 @@ function Parentalite() {
   );
 }
 
-function Enfants() {
+function Enfants({ content }) {
   return (
     <div className="relative border border-custom-green p-8">
       <div className="mb-9 text-lg font-medium">Ateliers pour les enfants</div>
@@ -89,7 +144,7 @@ function Enfants() {
   );
 }
 
-function Entreprise() {
+function Entreprise({ content }) {
   return (
     <div className="border border-custom-green p-8">
       <div className="mb-9 text-lg font-medium">Ateliers en entreprise</div>

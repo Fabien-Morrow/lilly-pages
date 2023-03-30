@@ -1,0 +1,27 @@
+
+{
+    "parentalite": {
+        "id": "parentalite",
+        "name": "Accompagnement à la parentalité",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ]
+    },
+    "enfants": {
+        "id": "enfants",
+        "name": "Ateliers pour les enfants",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ]
+    },
+    "entreprise": {
+        "id": "entreprise",
+        "name": "Ateliers en entreprise",
+        "description": [
+            "Ce qui fait l'originalité et la spécificité du californien, c'est principalement la douceur avec laquelle on procède aux manoeuvres, ainsi que la fluidité du rythme et des enchaînements (de la tête aux pieds).",
+            "Il facilite la détente et la relaxation, ce qui entraîne un état de bien-être global du corps et un lâcher prise de l'esprit : c’est Le massage bien-être \"anti-stress\"."
+        ]
+    }
+}

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Welcome() {
+export default function WelcomeMassage() {
   return (
     <div className="mt-28 pt-6">
       <div className="mx-auto flex max-w-min flex-col items-center">

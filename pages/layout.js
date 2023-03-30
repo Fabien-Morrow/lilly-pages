@@ -7,7 +7,7 @@ import RendezVous from "../components/RendezVous";
 export default function RootLayout({ children }) {
   return (
     <>
-      <header className="my-8 mx-5 flex lg:mx-5 xl:mx-20">
+      <header className="relative my-8 mx-5 flex lg:mx-5 xl:mx-20">
         <Brand />
         <Menu />
         <RendezVous />

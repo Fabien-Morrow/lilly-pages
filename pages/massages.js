@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Reserver from "../components/Reserver";
-import Welcome from "../components/WelcomeMassage";
 
 import { Accordion } from "@mantine/core";
 import massages from "@/public/massages.json";
+
+import WelcomeMassage from "../components/WelcomeMassage";
 export default function Home() {
   return (
     <main className="font-poppins">
-      <Welcome />
+      <WelcomeMassage />
       <WideMassages />
       <AccordeonMassages />
       <AccordeonMassages />
@@ -74,8 +75,8 @@ function WideMassages() {
       <div className=" text-center text-2xl">Les Massages Signatures</div>
       <div className="mt-12 grid grid-cols-2 gap-9">
         <Cell massage={massages.la_grande_evasion} />
-        {/* Cell 2 */}
         <div>
+          {/* Cell 2 */}
           <Image
             src="/massages/grande-evasion.png"
             width={524}
@@ -83,8 +84,8 @@ function WideMassages() {
             alt="grande-evasion"
           />
         </div>
-        {/* Cell 3 */}
         <div className="relative">
+          {/* Cell 3 */}
           <Image
             src="/massages/chinaitsang.png"
             width={524}
@@ -103,11 +104,11 @@ function WideMassages() {
       </div>
       <LargeCell massage={massages.kobido} />
       <div className=" mt-28 text-center text-2xl">Les Massages Classiques</div>
-      <div className="mt-12 grid grid-cols-2 grid-rows-3	 gap-9">
+      <div className="mt-12 grid grid-cols-2 grid-rows-3 gap-9">
         <Cell massage={massages.californien} />
         <Cell massage={massages.balinais} />
-        {/* Cell 7 */}
         <div>
+          {/* Cell 7 */}
           <Image src="/room.png" width={524} height={473} alt="room" />
         </div>
         <Cell massage={massages.prenatal} />
@@ -117,8 +118,8 @@ function WideMassages() {
       <div className=" mt-28 text-center text-2xl">Pour les enfants</div>
       <div className="mt-12 grid grid-cols-2 gap-9">
         <MassageEnfants />
-        {/* Cell 12 */}
         <div>
+          {/* Cell 12 */}
           <Image
             src="/massages/diving-board.png"
             width={524}
